@@ -95,7 +95,7 @@
     </tr>
     <tr>
         <td colspan="7">
-            <div class="titulo">Instruções de responsabilidade do beneficiário. Qualquer dúvida sobre este boleto, contate o beneficiário</div>
+            <div class="titulo">INSTRUÇÕES (TEXTO DE RESPONSABILIDADE DO BENEFICIÁRIO)</div>
         </td>
         <td>
             <div class="titulo">(-) Descontos / Abatimentos</div>
