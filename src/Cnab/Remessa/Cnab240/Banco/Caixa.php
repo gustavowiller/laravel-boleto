@@ -167,7 +167,7 @@ class Caixa extends AbstractRemessa implements RemessaContract
         $this->add(166, 180, Util::formatCnab('9', 0, 15, 2));
         $this->add(181, 195, Util::formatCnab('9', 0, 15, 2));
         $this->add(196, 220, Util::formatCnab('X', $boleto->getNumeroControle(), 25));
-        $this->add(221, 221, self::PROTESTO_SEM);
+        $this->add(221, 221, self::PROTESTO_NAO_PROTESTAR);
         if ($boleto->getDiasProtesto() > 0) {
             $this->add(221, 221, self::PROTESTO_DIAS_UTEIS);
         }
