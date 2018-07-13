@@ -548,6 +548,8 @@ abstract class AbstractRemessa
         }
         header('Content-type: text/plain');
         header('Content-Disposition: attachment; filename="' . $filename . '"');
+
+        ob_clean();
         echo $this->gerar();
     }
 }
