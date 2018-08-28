@@ -32,6 +32,14 @@
         </td>
     </tr>
     <tr>
+        <td colspan="7">
+            <div class="conteudo">{{ $beneficiario['endereco'] . ' - ' . $beneficiario['bairro'] . ' - ' . $beneficiario['cidade']  . ' - ' . $beneficiario['uf'] . ' - ' . $beneficiario['cep']}}</div>
+        </td>
+        <td class="notopborder">
+
+        </td>
+    </tr>
+    <tr>
         <td width="110" colspan="2">
             <div class="titulo">Data do documento</div>
             <div class="conteudo">{{ $data_documento->format('d/m/Y') }}</div>
