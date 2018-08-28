@@ -81,7 +81,7 @@
             <div class="conteudo">{{ $especie }}</div>
         </td>
         <td colspan="2">
-            <div class="titulo">Quantidade</div>
+            <div class="titulo">Qtde Moeda</div>
             <div class="conteudo"></div>
         </td>
         <td width="110">
